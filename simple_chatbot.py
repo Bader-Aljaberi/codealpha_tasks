@@ -1,7 +1,3 @@
-
-"""Simple-Chatbot.ipynb
-
-
 def simple_chatbot(user_input):
     user_input = user_input.lower()
     if any(word in user_input for word in ["hello", "hi", "hey", "greetings"]):
